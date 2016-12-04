@@ -1,0 +1,624 @@
+# depslib dependency file v1.0
+1450841856 source:c:\users\facundo\documents\algevo\ownpinballae\main.cpp
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<vector>
+	<fstream>
+	<iostream>
+	"Parameters.h"
+	"FinalStatistics.h"
+	"Solution.h"
+
+1450841856 h"
+
+1450841428 c:\users\facundo\documents\algevo\ownpinballae\include\parameters.h
+
+1450839467 c:\users\facundo\documents\algevo\ownpinballae\include\finalstatistics.h
+	"PopulationData.h"
+
+1450839467 nData.h"
+
+1450840028 c:\users\facundo\documents\algevo\ownpinballae\include\populationdata.h
+
+1449978573 c:\users\facundo\documents\algevo\ownpinballae\include\solution.h
+	<vector>
+	"Genome.h"
+
+1450838575 
+
+1450838575 c:\users\facundo\documents\algevo\ownpinballae\include\genome.h
+	<string>
+
+1453869743 source:/home/tecno_1994/AE/algevo/OwnPinballAE/main.cpp
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<vector>
+	<fstream>
+	<iostream>
+	<exception>
+	"Parameters.h"
+	"FinalStatistics.h"
+	"Solution.h"
+	"PinballFactory.h"
+	"EvolutionaryOperator.h"
+	"PinballCrossoverOperator.h"
+	"PinballMutationOperator.h"
+	"EvolutionPipeline.h"
+	"Constants.h"
+	"PinballEvaluator.h"
+	"SimpleEvolutionEngine.h"
+	"ZigguratRandomGenerator.h"
+	"StochasticUniversalSampling.h"
+	"GenerationCount.h"
+	"GenerationObserver.h"
+	"ParallelEvolutionEngine.h"
+	"IslandsEvolutionEngine.h"
+	"RingMigration.h"
+	"MicParallelEvolutionEngine.h"
+
+1452136048 /home/tecno_1994/AE/algevo/OwnPinballAE/include/Parameters.h
+
+1453165521 /home/tecno_1994/AE/algevo/OwnPinballAE/include/FinalStatistics.h
+	"PopulationData.h"
+	<vector>
+	"EvaluatedCandidate.h"
+
+1453165521 /home/tecno_1994/AE/algevo/OwnPinballAE/include/PopulationData.h
+
+1452136048 /home/tecno_1994/AE/algevo/OwnPinballAE/include/Solution.h
+	<vector>
+	"Genome.h"
+
+1451349191 /home/tecno_1994/AE/algevo/OwnPinballAE/include/Genome.h
+	<string>
+	<iostream>
+	<fstream>
+	<Random.h>
+
+1451266126 source:/home/tecno_1994/AE/algevo/OwnPinballAE/src/Genome.cpp
+	"Genome.h"
+
+1451349190 source:/home/tecno_1994/AE/algevo/OwnPinballAE/src/AIParameter.cpp
+	"ziggurat.hpp"
+	<time.h>
+	<string>
+	"OwnAEUtils.h"
+	"AIParameter.h"
+	<math.h>
+
+1450849183 /home/tecno_1994/AE/algevo/OwnPinballAE/include/ziggurat.h
+	<stdint.h>
+
+1451266126 /home/tecno_1994/AE/algevo/OwnPinballAE/include/OwnAEUtils.h
+
+1451349191 /home/tecno_1994/AE/algevo/OwnPinballAE/include/AIParameter.h
+	<string>
+	<Genome.h>
+
+1450847928 source:/home/tecno_1994/AE/algevo/OwnPinballAE/src/OwnAEUtils.c
+	"OwnAEUtils.h"
+	<math.h>
+
+1451349190 source:/home/tecno_1994/AE/algevo/OwnPinballAE/src/Point.cpp
+	<time.h>
+	"ziggurat.hpp"
+	"OwnAEUtils.h"
+	"Point.h"
+	<math.h>
+
+1451349191 /home/tecno_1994/AE/algevo/OwnPinballAE/include/Point.h
+	<Genome.h>
+
+1452136049 source:/home/tecno_1994/AE/algevo/OwnPinballAE/src/Solution.cpp
+	"Solution.h"
+	<iostream>
+	"Constants.h"
+
+1450848628 source:/home/tecno_1994/AE/algevo/OwnPinballAE/src/ziggurat.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdint.h>
+	"ziggurat.h"
+
+1451266126 source:/home/tecno_1994/AE/algevo/OwnPinballAE/src/OwnAEUtils.cpp
+	"OwnAEUtils.h"
+	<math.h>
+
+1451266126 source:/home/tecno_1994/AE/algevo/OwnPinballAE/src/ziggurat.cpp
+	<cstdlib>
+	<iostream>
+	<iomanip>
+	<cmath>
+	<ctime>
+	<stdint.h>
+	"ziggurat.hpp"
+
+1451266126 /home/tecno_1994/AE/algevo/OwnPinballAE/include/ziggurat.hpp
+	<stdint.h>
+
+1454464700 source:/home/tecno_1994/AE/algevo/OwnPinballAE/src/PinballEvaluator.cpp
+	<stdlib.h>
+	<cstring>
+	"PinballEvaluator.h"
+	"Constants.h"
+
+1452743846 /home/tecno_1994/AE/algevo/OwnPinballAE/include/PinballEvaluator.h
+	"Parameters.h"
+	"FitnessEvaluator.h"
+	"Solution.h"
+
+1452730672 /home/tecno_1994/AE/algevo/OwnPinballAE/include/FitnessEvaluator.h
+	<vector>
+
+1451266126 /home/tecno_1994/AE/algevo/OwnPinballAE/include/Constants.h
+
+1460701949 source:/home/sebastian/Documentos/OwnPinballAE/main.cpp
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<vector>
+	<fstream>
+	<iostream>
+	<exception>
+	"Parameters.h"
+	"FinalStatistics.h"
+	"Solution.h"
+	"PinballFactory.h"
+	"EvolutionaryOperator.h"
+	"PinballCrossoverOperator.h"
+	"PinballMutationOperator.h"
+	"EvolutionPipeline.h"
+	"Constants.h"
+	"PinballEvaluator.h"
+	"SimpleEvolutionEngine.h"
+	"XorShift128.h"
+	"StochasticUniversalSampling.h"
+	"GenerationCount.h"
+	"GenerationObserver.h"
+	"ParallelEvolutionEngine.h"
+	"IslandsEvolutionEngine.h"
+	"RingMigration.h"
+	"MicParallelEvolutionEngine.h"
+
+1455341188 /home/sebastian/Documentos/OwnPinballAE/include/Parameters.h
+
+1452746817 /home/sebastian/Documentos/OwnPinballAE/include/FinalStatistics.h
+	"PopulationData.h"
+	<vector>
+	"EvaluatedCandidate.h"
+
+1452746709 /home/sebastian/Documentos/OwnPinballAE/include/PopulationData.h
+
+1460700212 /home/sebastian/Documentos/OwnPinballAE/include/Solution.h
+	<vector>
+	"Genome.h"
+
+1451269835 /home/sebastian/Documentos/OwnPinballAE/include/Genome.h
+	<string>
+	<iostream>
+	<fstream>
+	<Random.h>
+
+1460624114 source:/home/sebastian/Documentos/OwnPinballAE/src/AIParameter.cpp
+	"Random.h"
+	<time.h>
+	<string>
+	"OwnAEUtils.h"
+	"AIParameter.h"
+	<math.h>
+
+1450850050 /home/sebastian/Documentos/OwnPinballAE/include/ziggurat.hpp
+	<stdint.h>
+
+1450850050 /home/sebastian/Documentos/OwnPinballAE/include/OwnAEUtils.h
+
+1451270838 /home/sebastian/Documentos/OwnPinballAE/include/AIParameter.h
+	<string>
+	<Genome.h>
+
+1450850050 source:/home/sebastian/Documentos/OwnPinballAE/src/Genome.cpp
+	"Genome.h"
+
+1450850050 source:/home/sebastian/Documentos/OwnPinballAE/src/OwnAEUtils.cpp
+	"OwnAEUtils.h"
+	<math.h>
+
+1460624140 source:/home/sebastian/Documentos/OwnPinballAE/src/Point.cpp
+	<time.h>
+	"Random.h"
+	"OwnAEUtils.h"
+	"Point.h"
+	<math.h>
+
+1451270848 /home/sebastian/Documentos/OwnPinballAE/include/Point.h
+	<Genome.h>
+
+1460700487 source:/home/sebastian/Documentos/OwnPinballAE/src/Solution.cpp
+	"Solution.h"
+	<iostream>
+	"Constants.h"
+
+1450850050 source:/home/sebastian/Documentos/OwnPinballAE/src/ziggurat.cpp
+	<cstdlib>
+	<iostream>
+	<iomanip>
+	<cmath>
+	<ctime>
+	<stdint.h>
+	"ziggurat.hpp"
+
+1460699894 source:/home/sebastian/Documentos/OwnPinballAE/src/PinballEvaluator.cpp
+	<stdlib.h>
+	<cstring>
+	"PinballEvaluator.h"
+	"Constants.h"
+
+1450856922 /home/sebastian/Documentos/OwnPinballAE/include/PinballEvaluator.h
+	"Parameters.h"
+	"FitnessEvaluator.h"
+	"Solution.h"
+
+1452482395 /home/sebastian/Documentos/OwnPinballAE/include/FitnessEvaluator.h
+	<vector>
+
+1450856406 /home/sebastian/Documentos/OwnPinballAE/include/Constants.h
+
+1451281826 source:/home/sebastian/Documentos/OwnPinballAE/src/GenericException.cpp
+	"GenericException.h"
+
+1451281826 /home/sebastian/Documentos/OwnPinballAE/include/GenericException.h
+	<exception>
+
+1450932314 source:/home/sebastian/Documentos/OwnPinballAE/src/SimpleEvolutionEngine.cpp
+
+1451271433 /home/sebastian/Documentos/OwnPinballAE/include/Random.h
+
+1452483696 source:/home/sebastian/Documentos/OwnPinballAE/src/ZigguratRandomGenerator.cpp
+	"ZigguratRandomGenerator.h"
+	"PlatformSpecific.h"
+
+1451450847 /home/sebastian/Documentos/OwnPinballAE/include/ZigguratRandomGenerator.h
+	<Random.h>
+	<ziggurat.hpp>
+
+1460701761 source:/home/sebastian/Documentos/OwnPinballAE/src/PinballCrossoverOperator.cpp
+	"PinballCrossoverOperator.h"
+	"Genome.h"
+	<stdlib.h>
+	<string.h>
+
+1451278850 /home/sebastian/Documentos/OwnPinballAE/include/PinballCrossoverOperator.h
+	"Solution.h"
+	"AbstractCrossover.h"
+
+1452492483 /home/sebastian/Documentos/OwnPinballAE/include/AbstractCrossover.h
+	<vector>
+	<Random.h>
+	"EvolutionUtils.h"
+	"EvolutionaryOperator.h"
+	"GenericException.h"
+
+1454465385 /home/sebastian/Documentos/OwnPinballAE/include/EvolutionUtils.h
+	<vector>
+	"PopulationData.h"
+	"Random.h"
+	"EvaluatedCandidate.h"
+	"TerminationCondition.h"
+	<algorithm>
+	<math.h>
+
+1452746345 /home/sebastian/Documentos/OwnPinballAE/include/EvaluatedCandidate.h
+
+1451438342 /home/sebastian/Documentos/OwnPinballAE/include/TerminationCondition.h
+	"PopulationData.h"
+
+1451291047 /home/sebastian/Documentos/OwnPinballAE/include/EvolutionaryOperator.h
+	<vector>
+	"Random.h"
+
+1460699922 source:/home/sebastian/Documentos/OwnPinballAE/src/PinballMutationOperator.cpp
+	"PinballMutationOperator.h"
+	"Genome.h"
+
+1451279083 /home/sebastian/Documentos/OwnPinballAE/include/PinballMutationOperator.h
+	"Solution.h"
+	"EvolutionaryOperator.h"
+
+1451291067 /home/sebastian/Documentos/OwnPinballAE/include/PinballFactory.h
+	<CandidateFactory.h>
+	"Solution.h"
+	"Random.h"
+
+1451291128 /home/sebastian/Documentos/OwnPinballAE/include/CandidateFactory.h
+	<vector>
+	"Random.h"
+	"GenericException.h"
+
+1452483835 /home/sebastian/Documentos/OwnPinballAE/include/EvolutionPipeline.h
+	<EvolutionaryOperator.h>
+
+1452744370 /home/sebastian/Documentos/OwnPinballAE/include/SimpleEvolutionEngine.h
+	<vector>
+	"EvolutionEngine.h"
+	"EvolutionObserver.h"
+	"Random.h"
+	"CandidateFactory.h"
+	"FitnessEvaluator.h"
+	"TerminationCondition.h"
+	<exception>
+	"GenericException.h"
+	<cmath>
+	"PopulationData.h"
+	"EvolutionUtils.h"
+	"EvolutionaryOperator.h"
+	"SelectionStrategy.h"
+
+1452487985 /home/sebastian/Documentos/OwnPinballAE/include/EvolutionEngine.h
+	"TerminationCondition.h"
+	"EvaluatedCandidate.h"
+	"EvolutionObserver.h"
+	<vector>
+	"FinalStatistics.h"
+
+1452486683 /home/sebastian/Documentos/OwnPinballAE/include/EvolutionObserver.h
+	"PopulationData.h"
+
+1452482382 /home/sebastian/Documentos/OwnPinballAE/include/SelectionStrategy.h
+	<vector>
+	"Random.h"
+
+1452482145 /home/sebastian/Documentos/OwnPinballAE/include/StochasticUniversalSampling.h
+	<SelectionStrategy.h>
+	<vector>
+	"EvaluatedCandidate.h"
+	<math.h>
+
+1451438307 /home/sebastian/Documentos/OwnPinballAE/include/GenerationCount.h
+	<TerminationCondition.h>
+	"GenericException.h"
+	"PopulationData.h"
+
+1460700282 source:/home/sebastian/Documentos/OwnPinballAE/src/PinballFactory.cpp
+	"PinballFactory.h"
+	<math.h>
+	"Point.h"
+	"AIParameter.h"
+
+1454646680 /home/sebastian/Documentos/OwnPinballAE/include/GenerationObserver.h
+	<EvolutionObserver.h>
+
+1452745829 /home/sebastian/Documentos/OwnPinballAE/include/ParallelEvolutionEngine.h
+	<SimpleEvolutionEngine.h>
+	"PlatformSpecific.h"
+	<omp.h>
+
+1451451293 /home/sebastian/Documentos/OwnPinballAE/include/PlatformSpecific.h
+
+1460697526 /home/sebastian/Documentos/OwnPinballAE/include/IslandsEvolutionEngine.h
+	<EvolutionEngine.h>
+	"GenerationCount.h"
+	"MigrationOperator.h"
+	"GenericException.h"
+	"EvolutionUtils.h"
+	"PlatformSpecific.h"
+	<omp.h>
+	<time.h>
+
+1451376872 /home/sebastian/Documentos/OwnPinballAE/include/MigrationOperator.h
+	"EvaluatedCandidate.h"
+	<vector>
+	"Random.h"
+
+1452744187 /home/sebastian/Documentos/OwnPinballAE/include/RingMigration.h
+	"MigrationOperator.h"
+	"EvolutionUtils.h"
+
+1452486267 source:/home/sebastian/Documentos/OwnPinballAE/src/PlatformSpecific.cpp
+	"PlatformSpecific.h"
+	<windows.h>
+	<unistd.h>
+	<time.h>
+
+1451457510 /home/sebastian/Documentos/OwnPinballAE/include/MicPinballEvaluator.h
+	"Parameters.h"
+	"FitnessEvaluator.h"
+	"Solution.h"
+
+1452149758 source:/home/sebastian/Documentos/OwnPinballAE/src/MicPinballEvaluator.cpp
+	<stdlib.h>
+	<cstring>
+	"MicPinballEvaluator.h"
+	"Constants.h"
+
+1453165521 /home/tecno_1994/AE/algevo/OwnPinballAE/include/EvaluatedCandidate.h
+
+1451349191 /home/tecno_1994/AE/algevo/OwnPinballAE/include/Random.h
+
+1451349191 /home/tecno_1994/AE/algevo/OwnPinballAE/include/PinballFactory.h
+	<CandidateFactory.h>
+	"Solution.h"
+	"Random.h"
+
+1451349191 /home/tecno_1994/AE/algevo/OwnPinballAE/include/CandidateFactory.h
+	<vector>
+	"Random.h"
+	"GenericException.h"
+
+1451349191 /home/tecno_1994/AE/algevo/OwnPinballAE/include/GenericException.h
+	<exception>
+
+1451349190 /home/tecno_1994/AE/algevo/OwnPinballAE/include/EvolutionaryOperator.h
+	<vector>
+	"Random.h"
+
+1451349191 /home/tecno_1994/AE/algevo/OwnPinballAE/include/PinballCrossoverOperator.h
+	"Solution.h"
+	"AbstractCrossover.h"
+
+1452730672 /home/tecno_1994/AE/algevo/OwnPinballAE/include/AbstractCrossover.h
+	<vector>
+	<Random.h>
+	"EvolutionUtils.h"
+	"EvolutionaryOperator.h"
+	"GenericException.h"
+
+1453870440 /home/tecno_1994/AE/algevo/OwnPinballAE/include/EvolutionUtils.h
+	<vector>
+	"PopulationData.h"
+	"Random.h"
+	"EvaluatedCandidate.h"
+	"TerminationCondition.h"
+	<algorithm>
+	<math.h>
+
+1451444399 /home/tecno_1994/AE/algevo/OwnPinballAE/include/TerminationCondition.h
+	"PopulationData.h"
+
+1451349191 /home/tecno_1994/AE/algevo/OwnPinballAE/include/PinballMutationOperator.h
+	"Solution.h"
+	"EvolutionaryOperator.h"
+
+1451349190 /home/tecno_1994/AE/algevo/OwnPinballAE/include/EvolutionPipeline.h
+	<EvolutionaryOperator.h>
+
+1453165521 /home/tecno_1994/AE/algevo/OwnPinballAE/include/SimpleEvolutionEngine.h
+	<vector>
+	"EvolutionEngine.h"
+	"EvolutionObserver.h"
+	"Random.h"
+	"CandidateFactory.h"
+	"FitnessEvaluator.h"
+	"TerminationCondition.h"
+	<exception>
+	"GenericException.h"
+	<cmath>
+	"PopulationData.h"
+	"EvolutionUtils.h"
+	"EvolutionaryOperator.h"
+	"SelectionStrategy.h"
+
+1452730672 /home/tecno_1994/AE/algevo/OwnPinballAE/include/EvolutionEngine.h
+	"TerminationCondition.h"
+	"EvaluatedCandidate.h"
+	"EvolutionObserver.h"
+	<vector>
+	"FinalStatistics.h"
+
+1452730672 /home/tecno_1994/AE/algevo/OwnPinballAE/include/EvolutionObserver.h
+	"PopulationData.h"
+
+1452730672 /home/tecno_1994/AE/algevo/OwnPinballAE/include/SelectionStrategy.h
+	<vector>
+	"Random.h"
+
+1451349190 /home/tecno_1994/AE/algevo/OwnPinballAE/include/ZigguratRandomGenerator.h
+	<Random.h>
+	<ziggurat.hpp>
+
+1452730672 /home/tecno_1994/AE/algevo/OwnPinballAE/include/StochasticUniversalSampling.h
+	<SelectionStrategy.h>
+	<vector>
+	"EvaluatedCandidate.h"
+	<math.h>
+
+1451444399 /home/tecno_1994/AE/algevo/OwnPinballAE/include/GenerationCount.h
+	<TerminationCondition.h>
+	"GenericException.h"
+	"PopulationData.h"
+
+1451349191 /home/tecno_1994/AE/algevo/OwnPinballAE/include/GenerationObserver.h
+	<EvolutionObserver.h>
+
+1453165521 /home/tecno_1994/AE/algevo/OwnPinballAE/include/ParallelEvolutionEngine.h
+	<SimpleEvolutionEngine.h>
+	"PlatformSpecific.h"
+	<omp.h>
+
+1452136048 /home/tecno_1994/AE/algevo/OwnPinballAE/include/PlatformSpecific.h
+
+1453165521 /home/tecno_1994/AE/algevo/OwnPinballAE/include/IslandsEvolutionEngine.h
+	<EvolutionEngine.h>
+	"GenerationCount.h"
+	"MigrationOperator.h"
+	"GenericException.h"
+	"EvolutionUtils.h"
+	"PlatformSpecific.h"
+	<omp.h>
+
+1451444399 /home/tecno_1994/AE/algevo/OwnPinballAE/include/MigrationOperator.h
+	"EvaluatedCandidate.h"
+	<vector>
+	"Random.h"
+
+1452744014 /home/tecno_1994/AE/algevo/OwnPinballAE/include/RingMigration.h
+	"MigrationOperator.h"
+	"EvolutionUtils.h"
+
+1452136048 /home/tecno_1994/AE/algevo/OwnPinballAE/include/MicPinballEvaluator.h
+	"Parameters.h"
+	"FitnessEvaluator.h"
+	"Solution.h"
+
+1451349190 source:/home/tecno_1994/AE/algevo/OwnPinballAE/src/GenericException.cpp
+	"GenericException.h"
+
+1451349190 source:/home/tecno_1994/AE/algevo/OwnPinballAE/src/PinballCrossoverOperator.cpp
+	"PinballCrossoverOperator.h"
+	"Genome.h"
+	<stdlib.h>
+	<string.h>
+
+1451349190 source:/home/tecno_1994/AE/algevo/OwnPinballAE/src/PinballFactory.cpp
+	"PinballFactory.h"
+	<math.h>
+	"Point.h"
+	"AIParameter.h"
+
+1452730672 source:/home/tecno_1994/AE/algevo/OwnPinballAE/src/PinballMutationOperator.cpp
+	"PinballMutationOperator.h"
+	"Genome.h"
+
+1452730672 source:/home/tecno_1994/AE/algevo/OwnPinballAE/src/PlatformSpecific.cpp
+	"PlatformSpecific.h"
+	<windows.h>
+	<unistd.h>
+	<time.h>
+
+1452730672 source:/home/tecno_1994/AE/algevo/OwnPinballAE/src/ZigguratRandomGenerator.cpp
+	"ZigguratRandomGenerator.h"
+	"PlatformSpecific.h"
+
+1452136049 source:/home/tecno_1994/AE/algevo/OwnPinballAE/src/MicPinballEvaluator.cpp
+	<stdlib.h>
+	<cstring>
+	"MicPinballEvaluator.h"
+	"Constants.h"
+
+1460699770 /home/sebastian/Documentos/OwnPinballAE/include/MicParallelEvolutionEngine.h
+	<SimpleEvolutionEngine.h>
+	"PlatformSpecific.h"
+	<omp.h>
+	"PinballEvaluator.h"
+	<sstream>
+
+1453869649 /home/tecno_1994/AE/algevo/OwnPinballAE/include/MicParallelEvolutionEngine.h
+	<SimpleEvolutionEngine.h>
+	"PlatformSpecific.h"
+	<omp.h>
+	"PinballEvaluator.h"
+	<sstream>
+
+1460346325 /home/sebastian/Documentos/OwnPinballAE/include/XorShift128.h
+	<stdint.h>
+	<Random.h>
+
+1460629910 source:/home/sebastian/Documentos/OwnPinballAE/src/XorShift128.cpp
+	"XorShift128.h"
+	"PlatformSpecific.h"
+	<stdio.h>
+	<cmath>
+

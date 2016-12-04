@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="OwnPinballAE" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/OwnPinballAE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="params.txt 418" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-fopenmp" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-fopenmp -lpthread" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/OwnPinballAE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="params.txt 418" />
+				<Compiler>
+					<Add option="-march=corei7" />
+					<Add option="-O2" />
+					<Add option="-fopenmp" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-fopenmp -lpthread" />
+				</Linker>
+			</Target>
+			<Target title="Profile">
+				<Option output="bin/Profile/OwnPinballAE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Profile/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="params.txt 42" />
+				<Compiler>
+					<Add option="-pg" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg" />
+				</Linker>
+			</Target>
+			<Target title="ReleaseIntel">
+				<Option output="bin/ReleaseIntel/OwnPinballAE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/ReleaseIntel/" />
+				<Option type="1" />
+				<Option compiler="icc" />
+				<Option parameters="params.txt 418" />
+				<Compiler>
+					<Add option="-openmp" />
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-openmp" />
+					<Add option="-lsvml" />
+					<Add option="-limf" />
+					<Add option="-lirng" />
+					<Add option="-lrt" />
+					<Add option="-lintlc" />
+					<Add option="-lpthread" />
+					<Add option="-lm" />
+				</Linker>
+			</Target>
+			<Target title="ReleaseMic">
+				<Option output="bin/ReleaseMic/OwnPinballAE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/ReleaseMic/" />
+				<Option type="1" />
+				<Option compiler="icc" />
+				<Option parameters="params.txt 418" />
+				<Compiler>
+					<Add option="-openmp" />
+					<Add option="-O2" />
+					<Add option="-mmic" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-openmp" />
+					<Add option="-mmic" />
+					<Add option="-lsvml" />
+					<Add option="-limf" />
+					<Add option="-lirng" />
+					<Add option="-lrt" />
+					<Add option="-lintlc" />
+					<Add option="-lpthread" />
+					<Add option="-lm" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/AIParameter.h" />
+		<Unit filename="include/AbstractCrossover.h" />
+		<Unit filename="include/CandidateFactory.h" />
+		<Unit filename="include/Constants.h" />
+		<Unit filename="include/EvaluatedCandidate.h" />
+		<Unit filename="include/EvolutionEngine.h" />
+		<Unit filename="include/EvolutionObserver.h" />
+		<Unit filename="include/EvolutionPipeline.h" />
+		<Unit filename="include/EvolutionUtils.h" />
+		<Unit filename="include/EvolutionaryOperator.h" />
+		<Unit filename="include/FinalStatistics.h" />
+		<Unit filename="include/FitnessEvaluator.h" />
+		<Unit filename="include/GenerationCount.h" />
+		<Unit filename="include/GenerationObserver.h" />
+		<Unit filename="include/GenericException.h" />
+		<Unit filename="include/Genome.h" />
+		<Unit filename="include/IslandsEvolutionEngine.h" />
+		<Unit filename="include/MicParallelEvolutionEngine.h">
+			<Option target="ReleaseIntel" />
+		</Unit>
+		<Unit filename="include/MicPinballEvaluator.h">
+			<Option target="Profile" />
+			<Option target="ReleaseMic" />
+		</Unit>
+		<Unit filename="include/MigrationOperator.h" />
+		<Unit filename="include/OwnAEUtils.h" />
+		<Unit filename="include/ParallelEvolutionEngine.h" />
+		<Unit filename="include/Parameters.h" />
+		<Unit filename="include/PinballCrossoverOperator.h" />
+		<Unit filename="include/PinballEvaluator.h" />
+		<Unit filename="include/PinballFactory.h" />
+		<Unit filename="include/PinballMutationOperator.h" />
+		<Unit filename="include/PlatformSpecific.h" />
+		<Unit filename="include/Point.h" />
+		<Unit filename="include/PopulationData.h" />
+		<Unit filename="include/Random.h" />
+		<Unit filename="include/RingMigration.h" />
+		<Unit filename="include/SelectionStrategy.h" />
+		<Unit filename="include/SimpleEvolutionEngine.h" />
+		<Unit filename="include/Solution.h" />
+		<Unit filename="include/StochasticUniversalSampling.h" />
+		<Unit filename="include/TerminationCondition.h" />
+		<Unit filename="include/XorShift128.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/AIParameter.cpp" />
+		<Unit filename="src/GenericException.cpp" />
+		<Unit filename="src/Genome.cpp" />
+		<Unit filename="src/MicPinballEvaluator.cpp">
+			<Option target="Profile" />
+			<Option target="ReleaseMic" />
+		</Unit>
+		<Unit filename="src/OwnAEUtils.cpp" />
+		<Unit filename="src/PinballCrossoverOperator.cpp" />
+		<Unit filename="src/PinballEvaluator.cpp" />
+		<Unit filename="src/PinballFactory.cpp" />
+		<Unit filename="src/PinballMutationOperator.cpp" />
+		<Unit filename="src/PlatformSpecific.cpp" />
+		<Unit filename="src/Point.cpp" />
+		<Unit filename="src/Solution.cpp" />
+		<Unit filename="src/XorShift128.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
