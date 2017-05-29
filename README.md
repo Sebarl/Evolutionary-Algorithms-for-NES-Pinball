@@ -5,19 +5,19 @@ Dependencies:
 
 In order to successfully compile the code the following packages are needed:
 
-*Fceux depnencies (extracted from the official documentation):
+* Fceux dependencies (extracted from the official documentation):
 	
-	-libsdl1.2 - It is strongly recommended that you upgrade to the latest version of sdl (1.2.15 at the time of writing).
-	-scons - Required to build fceux.
-	-libgtk2.0 (optional) - version >= 2.24 recommended
-	-libgtk3.0 (optional) - this compiles as of fceux 2.2.0
-	-liblua5.1 (optional)
-	-minizip (optional) - you may chose to use the version of minizip on your system by enabling SYSTEM_MINIZIP in the SConstruct
-	-c++ compiler -- you may use g++ from gcc or clang++ from llvm.
+		-libsdl1.2 - It is strongly recommended that you upgrade to the latest version of sdl (1.2.15 at the time of writing).
+		-scons - Required to build fceux.
+		-libgtk2.0 (optional) - version >= 2.24 recommended
+		-libgtk3.0 (optional) - this compiles as of fceux 2.2.0
+		-liblua5.1 (optional)
+		-minizip (optional) - you may chose to use the version of minizip on your system by enabling SYSTEM_MINIZIP in the SConstruct
+		-c++ compiler -- you may use g++ from gcc or clang++ from llvm.
 
-*OpenMP
+* OpenMP
 
-*Intel compiler and related libaries for cross-compilation for the k1om architecture
+* Intel compiler and related libaries for cross-compilation for the k1om architecture
 
 Compilation instructions:
 
